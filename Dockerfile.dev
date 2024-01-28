@@ -1,0 +1,10 @@
+FROM golang:alpine  
+WORKDIR /app
+ENV GO111MODULE=on
+RUN go install github.com/cosmtrek/air@latest
+COPY main.go .
+COPY go.sum go.sum
+COPY go.mod go.mod
+RUN go mod tidy
+RUN go mod download
+ENTRYPOINT air
