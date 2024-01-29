@@ -1,2 +1,4 @@
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
 github.com/sashabaranov/go-openai v1.19.1 h1:lIAtrpgE6Lhc3avbWG7wV4zeRWVi4nymQ7IUSq0mDMI=
 github.com/sashabaranov/go-openai v1.19.1/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=

@@ -12,6 +12,7 @@ services:
     ports:
       - 8000:8000
     volumes:
+      - ./src/:/app/src/
       - ./main.go:/app/main.go
 
   release:
