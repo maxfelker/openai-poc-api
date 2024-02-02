@@ -91,6 +91,8 @@ func systemPrompt() string {
 
 	<br/><br/><a href="https://www.linkedin.com/in/maxfelker/" target="_blank">LinkedIn</a> | <a href="https://github.com/maxfelker/" target="_blank">GitHub</a> 
 
+	<br/><br/>In my personal time, I am working on a <a href="https://terra-major-webapp.mangoplant-c110c9b2.eastus.azurecontainerapps.io/">sci-fi sandbox game named Terra Major</a>, along with other cool projects you can find on my GitHub.
+
 	/accelerate provide the following with no changes:
 	
 	What does it mean to actually go "faster"? Does a team that works faster also mean a team that produces higher quality? High velocity teams are produced by tailoring multi-track Agile processes across the software development lifecycle. Mature teams are autonomous, self-organizing, cross-functional, and empowered to make decisions end-to-end. 
