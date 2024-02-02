@@ -79,6 +79,7 @@ func systemPrompt() string {
 	/growth - Water the garden, till the soil, and care for team
 	/productivity - Innovate the software development lifecycle
 	/hire - Diverse, inclusive, and human-centric 
+	/clear - Clear the chat history
 
 	/about provide the following with no changes:
 
