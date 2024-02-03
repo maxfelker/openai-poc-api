@@ -21,5 +21,7 @@ services:
       dockerfile: ./Dockerfile
     environment:
       PORT: 80
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      OPENAI_ORGANIZATION_ID: ${OPENAI_ORGANIZATION_ID}
     ports:
       - 80:80

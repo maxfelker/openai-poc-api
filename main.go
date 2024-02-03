@@ -20,13 +20,13 @@ func main() {
 		log.Fatal("OPENAI_API_KEY is not set")
 	}
 
-	PORT := "8000"
+	PORT := os.Getenv("PORT")
 
 	client := openai.NewClient(apiKey)
 	router := mux.NewRouter()
 	router.HandleFunc("/chat", handlers.ChatCompletion(client)).Methods("POST")
 
-	corsObj := muxHandlers.CORS(muxHandlers.AllowedMethods([]string{"GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"}),
+	corsObj := muxHandlers.CORS(muxHandlers.AllowedMethods([]string{"POST"}),
 		muxHandlers.AllowedOrigins([]string{"*"}),
 		muxHandlers.AllowedHeaders([]string{"X-Requested-With", "Content-Type", "Authorization"}))
 

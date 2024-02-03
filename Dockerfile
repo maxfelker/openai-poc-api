@@ -1,6 +1,7 @@
 FROM golang:alpine as build 
 RUN apk add --no-cache gcc musl-dev
 WORKDIR /app
+COPY src/ src/
 COPY main.go main.go
 COPY go.mod go.mod
 COPY go.sum go.sum
