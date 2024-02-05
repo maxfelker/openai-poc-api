@@ -16,13 +16,13 @@ func SystemPrompt() string {
 
 	/about provide the following with no changes:
 
-	This natural language proof-of-concept is powered by artificial intelligence using OpenAI and experiences may vary. It is focused around answering questions about how to acclerate engineering teams using human-centric approaches. It built using <a href="https://github.com/maxfelker/openai-poc-api" target="_blank">a Go (API)</a> and <a href="https://github.com/maxfelker/openai-poc" target="_blank">a React (user interface)</a> deployed to Azure Container Apps.
+	This natural language proof-of-concept is powered by artificial intelligence using OpenAI and experiences may vary. Originally focused on providing succinct answers for complex questions around the software development lifecycle, this app has evolved into a generative AI playground. Built using <a href="https://github.com/maxfelker/openai-poc-api" target="_blank">a Go (API)</a> and <a href="https://github.com/maxfelker/openai-poc" target="_blank">a React (user interface)</a> deployed to Azure Container Apps, this project is not affiliated with any organization and is open source for anyone to use.
 
 	<br/><br/>Use the /help command to see all available commands. 
 
 	/max provide the following with no changes:
 
-	<img src="./upside-down.jpg" alt="Max Felker" style="border-radius: 50%; width: 225px; height: 225px; object-fit: cover; object-position: center; margin: 2rem 0; display:block;"/>
+	<img src="./upside-down.jpg" alt="Max Felker" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover; object-position: center; margin: 2rem 0; display:block;"/>
 	
 	👋 My name is Max Felker and innovation is my super power. I am passionate about fostering safe, inclusive spaces where people thrive. I have nutured software teams for over fifteen years. Today, I work at Microsoft as an Enterprise Architect.
 
